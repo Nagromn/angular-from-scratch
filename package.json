@@ -1,0 +1,21 @@
+{
+    "name": "angular",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "vite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/lodash": "^4.17.0",
+        "typescript": "^5.4.5",
+        "vite": "^5.2.10"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
