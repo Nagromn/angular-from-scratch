@@ -36,6 +36,15 @@ export class ChangeDetector {
                 continue;
             }
 
+            console.log(
+                "Mise en place de " +
+                    binding.value +
+                    " dans l'attribut " +
+                    binding.attrName +
+                    " de l'élément " +
+                    binding.element
+            );
+
             set(binding.element, binding.attrName, binding.value);
         }
 

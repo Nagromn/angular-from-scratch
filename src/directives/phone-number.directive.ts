@@ -31,7 +31,6 @@ export class PhoneNumberDirective {
     @HostListener("click")
     onClick() {
         this.placeholderText = "Hello Lior !";
-        Detector.digest();
     }
 
     constructor(public element: HTMLElement, private formatter: Formatter) {}
@@ -44,7 +43,5 @@ export class PhoneNumberDirective {
             2,
             this.willHaveSpaces
         );
-
-        Detector.digest();
     }
 }
